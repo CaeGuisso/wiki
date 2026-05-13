@@ -21,6 +21,7 @@ Aqui você encontra conteúdos rápidos e práticos. Se curtir algo mais detalha
   {{< card link="<https://guisso.dev>" title="Blog" icon="user" >}}
   {{< card link="linux" title="linux" icon="terminal" >}}
   {{< card link="security" title="security" icon="terminal" >}}
+  {{< card link="networking" title="networking" icon="globe" >}}
   {{< card link="/linux/homelab" title="homelab" icon="home" >}}
   {{< card link="blockchain" title="blockchain" icon="key" >}}
   {{< card link="music" title="musica" icon="music-note" >}}

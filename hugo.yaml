@@ -31,8 +31,11 @@ menu:
     - name: Security
       pageRef: /security
       weight: 1
- 
-    - name: Blockchain 
+    - name: Networking
+      pageRef: /networking
+      weight: 1
+
+    - name: Blockchain
       pageRef: /blockchain
       weight: 2
     - name: Musica
