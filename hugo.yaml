@@ -19,41 +19,57 @@ languages:
   pt-br:
     languageName: Portugues
     weight: 1
+    menu:
+      main:
+        - name: Linux
+          pageRef: /linux
+          weight: 1
+        - name: Security
+          pageRef: /security
+          weight: 1
+        - name: Networking
+          pageRef: /networking
+          weight: 1
+
+        - name: Blockchain
+          pageRef: /blockchain
+          weight: 2
+        - name: Musica
+          pageRef: /music
+          weight: 2
+
+        - name: Contato ↗
+          url: "https://guisso.dev"
+          weight: 3
+        - name: Search
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/fguisso/seguranca-para-pessoas-desenvolvedoras"
+          params:
+            icon: github
   en:
     languageName: English
     weight: 2
-
-menu:
-  main:
-    - name: Linux
-      pageRef: /linux
-      weight: 1
-    - name: Security
-      pageRef: /security
-      weight: 1
-    - name: Networking
-      pageRef: /networking
-      weight: 1
-
-    - name: Blockchain
-      pageRef: /blockchain
-      weight: 2
-    - name: Musica
-      pageRef: /music
-      weight: 2
-
-    - name: Contato ↗
-      url: "https://guisso.dev"
-      weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/fguisso/seguranca-para-pessoas-desenvolvedoras"
-      params:
-        icon: github
+    menu:
+      main:
+        - name: Linux
+          pageRef: /linux
+          weight: 1
+        - name: Contato ↗
+          url: "https://guisso.dev"
+          weight: 3
+        - name: Search
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/fguisso/seguranca-para-pessoas-desenvolvedoras"
+          params:
+            icon: github
 
 params:
   navbar:
