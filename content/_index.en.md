@@ -13,3 +13,17 @@ The "gwiki" logo was supposed to be a variation of my name, but it ended up beco
 ## 🚀 **Explore, connect and enjoy!**
 Here you will find quick and practical content. If you like something more detailed, check out my blog, where you will find articles, lectures and other more specific stuff.
 
+## Explore
+
+{{< cards >}}
+  {{< card link="https://devsec.guisso.dev" title="Book" icon="book-open" >}}
+  {{< card link="https://guisso.dev" title="Blog" icon="user" >}}
+  {{< card link="linux" title="Linux" icon="terminal" >}}
+  {{< card link="security" title="Security" icon="terminal" >}}
+  {{< card link="networking" title="Networking" icon="globe" >}}
+  {{< card link="/linux/homelab" title="Homelab" icon="home" >}}
+  {{< card link="blockchain" title="Blockchain" icon="key" >}}
+  {{< card link="music" title="Music" icon="music-note" >}}
+  {{< card link="cubo" title="Cube" icon="cube" >}}
+  {{< card link="barraco" title="/co" icon="home" >}}
+{{< /cards >}}
